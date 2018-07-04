@@ -1,0 +1,110 @@
+.row {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.header {
+	width: 96%;
+	margin: 10px auto 15px auto;
+}
+
+.header .banner {
+    float: left;
+    margin-top: -10px;
+    width: 21%;
+    color: darkgreen;
+}
+
+.header .banner h1 {
+    margin-bottom: 0;
+    font-size: 25px;
+    margin-top: 22px;
+}
+
+.header .banner img {
+	width: 24px;
+}
+
+.header .action-area {
+	float: left;
+    margin-top: 10px;
+}
+
+.header .action-area .form-control {
+	width: 60%;
+}
+
+.header .action-btn-area {
+	margin-top: 10px;
+	float: right;
+}
+
+.header .action-btn-area select {
+	width: 102px !important;
+}
+
+.header .action-btn-area button {
+	margin-left: 14px;
+	width: 102px;
+}
+
+.log-area {
+    width: 96%;
+    margin: 0 auto;
+    top: -30px;
+    margin-top: 15px;
+}
+
+.log-area .log-content {
+	background: rgba(205, 220, 57, 0.2);
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 2px;
+    font-size: 13px;
+    font-family: sans-serif;
+	height: calc(100vh - 85px);
+    overflow-y: scroll;
+    width: 100%;
+}
+
+.log-area .log-content .error {
+	color: red;
+}
+
+.log-area .log-content .warn {
+	color: #2196f3;
+}
+
+.log-area .log-content .debug {
+	color: #285f8e;
+}
+
+.log-area .log-content p {
+	margin-bottom: 2px;	
+    word-break: break-word;
+}
+
+.alert {
+	display: none;
+	padding: 10px;
+    margin-bottom: 10px;
+}
+
+.loading-area .loading-img {
+	position: fixed;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	transform: -webkit-translate(-50%, -50%);
+  	transform: -moz-translate(-50%, -50%);
+  	transform: -ms-translate(-50%, -50%);
+ 	z-index: 9999;
+    height: 70px;
+    background: #fff;
+    border: 2px double #2196F3;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
